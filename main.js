@@ -114,7 +114,7 @@ function renderComments() {
 
   const commentHTML = commentArr.map(comment => `
       <div class="comment">
-          <img src="${comment.image}" alt="User">
+          <img class= "lazy" src="${comment.image}" alt="User">
           <blockquote>
               <p>${comment.text}</p>
               <div class ="footer-cmt">
