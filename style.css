@@ -36,7 +36,7 @@ body {
 
 .header {
     width: 100%;
-    background: linear-gradient(to top, #283248 15%, rgba(40, 50, 72, 0) 100%), url(./img/backgroud-header.png) no-repeat center center/cover;
+    background: linear-gradient(to top, #283248 15%, rgba(40, 50, 72, 0) 100%), url(./img/backgroud-header.webp) no-repeat center center/cover;
     height: 100vh;
     position: relative;
 }

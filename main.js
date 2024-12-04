@@ -53,23 +53,23 @@ const slides = [
     caption: 'Outsourcing kho hàng'
   },
   {
-    background: 'img/slide1.png',
-    circleImage: 'img/slide1.png',
+    background: 'img/slide1.webp',
+    circleImage: 'img/slide1.webp',
     caption: 'Kho bãi và lưu trữ'
   },
   {
-    background: 'img/slide2.png',
-    circleImage: 'img/slide2.png',
+    background: 'img/slide2.webp',
+    circleImage: 'img/slide2.webp',
     caption: 'Dịch vụ vận chuyển'
   },
   {
-    background: 'img/slide4.png',
-    circleImage: 'img/slide4.png',
+    background: 'img/slide4.webp',
+    circleImage: 'img/slide4.webp',
     caption: 'Dịch vụ vận chuyển'
   },
   {
-    background: 'img/slide5.png',
-    circleImage: 'img/slide5.png',
+    background: 'img/slide5.webp',
+    circleImage: 'img/slide5.webp',
     caption: 'Kho bãi và lưu trữ'
   },
 ];
@@ -90,19 +90,19 @@ function nextSlide() {
 
 const commentArr = [
   {
-    image: './img/female.jpg',
+    image: 'img/female.jpg',
     text: 'Eu odio et cras nisi eu congue faucibus sit. Pretium proin dignissim urna aenean varius nisi amet nullam id.',
     author: 'Ms Taylor',
     role: 'Founder ABC'
   },
   {
-    image: './img/male.jpg',
+    image: 'img/male.jpg',
     text: 'Eu odio et cras nisi eu congue faucibus sit. Pretium proin dignissim urna aenean varius nisi amet nullam id.',
     author: 'Mr. Smith',
     role: 'Founder ABC'
   },
   {
-    image: './img/male.jpg',
+    image: 'img/male.jpg',
     text: 'Eu odio et cras nisi eu congue faucibus sit. Pretium proin dignissim urna aenean varius nisi amet nullam id.',
     author: 'Mr. Smith',
     role: 'Founder ABC'
@@ -114,7 +114,7 @@ function renderComments() {
 
   const commentHTML = commentArr.map(comment => `
       <div class="comment">
-          <img class= "lazy" src="${comment.image}" alt="User">
+          <img src="${comment.image}" alt="User">
           <blockquote>
               <p>${comment.text}</p>
               <div class ="footer-cmt">
