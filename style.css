@@ -1039,3 +1039,16 @@ li {
     align-items: center;
     margin-top: 1.25rem;
 }
+
+.lazy {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.loaded {
+    opacity: 1;
+}
+
+.slide {
+    background: #f0f0f0;
+}

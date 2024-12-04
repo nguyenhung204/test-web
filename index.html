@@ -21,7 +21,7 @@
             <nav class="navbar">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <img src="./img/logo.png" alt="" class="logo">
+                        <img rel="preload" src="./img/logo.png" alt="" class="logo">
                     </a>
                     <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
                         <i class="fa-solid fa-bars"></i>
@@ -49,7 +49,7 @@
                             <a class="nav-link" href="#">Liên hệ</a>
                         </li>
                         <li class="nav-item language">
-                            <img class="localtion" src="./img/localtion-icon.png" alt="">
+                            <img rel="preload" class="localtion" src="./img/localtion-icon.png" alt="">
                             <select class="select-location">
                                 <option value="">VI</option>
                                 <option value="">EN</option>
@@ -82,9 +82,9 @@
 
                 <div class="slider">
                     <div class="slides">
-                        <div class="slide"><img src="img/frame1.jpg" alt="Slide 1" /></div>
-                        <div class="slide"><img src="img/frame2.jpg" alt="Slide 2" /></div>
-                        <div class="slide"><img src="img/frame3.jpg" alt="Slide 3" /></div>
+                        <div rel="preload" class="slide"><img src="img/frame1.jpg" alt="Slide 1" /></div>
+                        <div rel="preload" class="slide"><img src="img/frame2.jpg" alt="Slide 2" /></div>
+                        <div rel="preload" class="slide"><img src="img/frame3.jpg" alt="Slide 3" /></div>
                         <div class="pagination">
                             <span class="dot"></span>
                             <span class="dot"></span>
@@ -166,7 +166,7 @@
                 </div>
             </div>
             <div class="map">
-                <img src="img/map.png" alt="">
+                <img class="lazy" src="img/map.png" alt="">
             </div>
 
 
@@ -174,13 +174,13 @@
 
         <section class="two">
             <div class="slider-section-two">
-                <div class="background"></div>
+                <div class="background lazy"></div>
                 <div class="wrapper-circle-btn">
                     <div class="circle circle-line1">
                         <div class="circle circle-line2">
                             <div class="circle circle-line3" style="border: solid 1px #F14B23;">
                                 <div class="circle-mask">
-                                    <img src="img/slide.png" alt="Circle Image" class="circle-image" />
+                                    <img src="img/slide.png" alt="Circle Image" class="circle-image lazy" />
                                 </div>
                             </div>
                         </div>
@@ -232,8 +232,8 @@
 
             <div class="content-section-three">
                 <div class="image-section">
-                    <img src="img/frame-section-three.png" class="front" alt="">
-                    <img src="img/frame-section-three-1.png" class="back" alt="">
+                    <img src="img/frame-section-three.png" class="front lazy" alt="">
+                    <img src="img/frame-section-three-1.png" class="back lazy" alt="">
                 </div>
                 <div class="content-section">
                     <h1>LÝ DO CHỌN CHÚNG TÔI</h1>
@@ -432,7 +432,7 @@
 
 
     </div>
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>
 </body>
 
 </html>
